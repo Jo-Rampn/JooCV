@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Johannes Rampengan</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.4; color: #333; max-width: 700px; margin: auto; padding: 40px; }
+        header { display: flex; align-items: center; gap: 20px; border-bottom: 3px solid #1a5276; padding-bottom: 20px; }
+        .foto { width: 100px; height: 130px; border: 1px solid #ccc; object-fit: cover; border-radius: 4px; }
+        h1 { color: #1a5276; margin: 0; font-size: 24px; text-transform: uppercase; }
+        .contact { font-size: 13px; color: #666; margin-top: 5px; }
+        h2 { color: #1a5276; font-size: 16px; border-left: 4px solid #1a5276; padding-left: 10px; margin: 25px 0 10px; }
+        .item { margin-bottom: 12px; border-left: 1px solid #eee; padding-left: 15px; }
+        .date { font-weight: bold; color: #1a5276; font-size: 12px; }
+        .badge { background: #d4e6f1; color: #1a5276; padding: 1px 6px; border-radius: 4px; font-size: 10px; font-weight: bold; }
+        @media print { .btn { display: none; } body { padding: 20px; } }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="https://via.placeholder.com/100x130?text=Foto" alt="Foto Johannes" class="foto">
+        <div>
+            <h1>Johannes Rampengan</h1>
+            <div class="contact">
+                📍 Tomohon, Sulawesi Utara<br>
+                📞 0812-xxxx-xxxx | 📧 johannes@email.com
+            </div>
+        </div>
+    </header>
+
+    <h2>Tentang Saya</h2>
+    <p style="font-size: 14px;">Saya adalah mahasiswa Politeknik Negeri Manado yang disiplin dan berdedikasi tinggi. Memiliki riwayat akademik yang kuat dengan predikat siswa berprestasi yang dipertahankan sejak bangku Sekolah Dasar hingga Sekolah Menengah Kejuruan.</p>
+
+    <h2>Riwayat Pendidikan & Prestasi</h2>
+    
+    <div class="item">
+        <span class="date">2025 - Sekarang</span><br>
+        <b>Politeknik Negeri Manado</b> — Mahasiswa Aktif
+    </div>
+
+    <div class="item">
+        <span class="date">2022 - 2025</span><br>
+        <b>SMK Kristen 1 Tomohon</b> <span class="badge">Siswa Berprestasi Utama</span>
+    </div>
+
+    <div class="item">
+        <span class="date">2019 - 2022</span><br>
+        <b>SMP Kristen 1 Taratara</b> <span class="badge">Siswa Berprestasi</span>
+    </div>
+
+    <div class="item">
+        <span class="date">2013 - 2019</span><br>
+        <b>SD GMIM 1 Taratara</b> <span class="badge">Siswa Berprestasi</span>
+    </div>
+
+    <div class="item">
+        <span class="date">2012 - 2013</span><br>
+        <b>Taman Kanak-Kanak</b> — Mulai pendidikan usia 5 tahun
+    </div>
+
+    <button class="btn" onclick="window.print()" style="margin-top:20px; padding:10px 15px; background:#1a5276; color:white; border:none; cursor:pointer; border-radius:4px;">Cetak ke PDF</button>
+
+</body>
+</html>
